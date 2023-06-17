@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YouTube ダウンローダー</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1 class="heading">YouTube ダウンローダー</h1>
+    <form action="/download" method="post">
+        <input class="URL-input" name="url" placeholder="Youtube URL" required>
+        <input class="input-field" name="title" placeholder="タイトル" required>
+        <input class="input-field" name="album-name" placeholder="アルバム名">
+        <input class="input-field" name="album-artist" placeholder="アルバムアーティスト">
+        <input class="input-field" name="artist" placeholder="アーティスト">
+        <input class="input-field" name="composer" placeholder="作曲者">
+        <input class="input-field" name="lyricist" placeholder="作詞者">
+        <textarea class="input-field" name="lyrics" placeholder="歌詞"></textarea>
+        <button type="submit" class="convert-button">ダウンロード</button>
+    </form>
+</body>
+
+</html>
