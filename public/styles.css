@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Reset default browser styles */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Page layout */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 50px auto;
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.URL-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  width: 100%;
+  font-size: 14px;
+  max-width: 400px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  width: 100%;
+  font-size: 14px;
+  max-width: 400px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.convert-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.convert-button:hover {
+  background-color: #45a049;
+}
+
+.convert-button:active {
+  background-color: #3e8e41;
+}
